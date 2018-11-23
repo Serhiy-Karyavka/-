@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset "UTF-8">
+<title> Veloshop </title>
+
+		<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+		<link rel="stylesheet" 
+		href="style.css">
+	</head>
+	<body >
+<nav class="navbar navbar-default">
+		<div class="navbar-header">
+			<a href="#" class="navbar-brand" style="padding:0;">
+				<img src="images/logo.png" alt="Logo" style='height: 100%;'>
+			</a>
+		</div>
+		<ul class='navbar-nav nav'>
+			<li ><a href="index.html">Головна</a></li>
+			<li class='active'><a href="#">Про компанію</a></li>
+			<li><a href="2vkl.html">Детально тут</a></li>
+			<li><a href="slider.html">Мій слайдерс)</a></li>
+		</ul>
+		<form action="post" class="navbar-form navbar-right">
+
+			<div class='form-group'>
+				<div class='input-group'>
+					<input type="text" placeholder='Find->' class='form-control'>
+					<div class="input-group-btn">
+						<button class='btn btn-primary '>
+							<i class="glyphicon glyphicon-search"></i>
+
+						</button>
+					</div>
+				</div>
+				
+			</div>
+			
+		</form>
+	</nav>
+
+ <article>
+<dl>
+	<p><img src="images/LOGO_VELOGEN.jpg" alt="Наш логотипчик" id="velogen" onmouseover="resize()" onmouseleave="resize()" hspace="25" vspace="5"  alt="наш логос" align="right"></p>
+	 >
+	<dt><section><h3>Цікаві посилання про нас</h3></section></dt>
+	<dd>
+		<ul type='square'>
+			<li><p class="cite"><a href="https://velogen.ua">Сайт нашого проекту<a/></p></li>
+			<li><p class="cite"><a href="https://www.youtube.com/channel/UCOyvJFMKcQax4GHiL5-lJjQ?view_as=subscriber">Головна каналу КСС<a/></p></li>
+			<li><p class="cite"><a href="https://www.youtube.com/watch?v=eNbQJPBbp3I&t=219s">Форум Innovation market 2017<a/></p></li>
+			<li><p class="cite"><a href="https://www.youtube.com/watch?v=vRGseS0cAmI&t=65s"> ІОШТ<a/></p></li>
+			<li><p class="cite"><a href="https://www.facebook.com/sergei.karavka">Мій профіль на фейсбук<a/></p></li>
+			<li><p class="cite"><a href="https://www.youtube.com/watch?v=x6Z--T0_Uc8">Хто такі команда Турмалін <a/></p></li>
+	</dd>
+</dl>
+</article>
+
+
+	</section>
+
+
+		<div id="footer2">
+			<a href="index.html" >Головна |</a>
+			<a href="ko.html"> Про компанію    |</a>
+			<a href="2vkl.html"> Детально тут    |</a>
+			<a href="slider.html"> мій слайдер   | </a>
+			<a href="https://velogen.ua"> На велоген   </a>
+		</div>
+
+
+
+		
+	</body>
+
+	<script type="text/javascript">
+	var flag=0;
+function resize() {
+	console.log('VELOGENanim')
+       if(flag==0){
+            document.getElementById("velogen").width = "1100";
+          flag=1;
+          }
+       else
+          {
+         document.getElementById("velogen").width = "840";
+          flag=0;
+        }
+   }
+</script>
+
+</html>
